@@ -1,9 +1,9 @@
 <?php
 
-namespace Nplesa\\ActivityLog;
+namespace Nplesa\ActivityLog;
 
-use Illuminate\\Support\\ServiceProvider;
-use Nplesa\\ActivityLog\\Middleware\\LogRequestMiddleware;
+use Illuminate\Support\ServiceProvider;
+use Nplesa\ActivityLog\Middleware\LogRequestMiddleware;
 
 class ActivityLogServiceProvider extends ServiceProvider
 {
