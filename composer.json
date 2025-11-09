@@ -1,0 +1,22 @@
+{
+    "name": "nplesa/activitylog",
+    "description": "Laravel 12 package to log all model operations and HTTP requests.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nplesa\\ActivityLog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nplesa\\ActivityLog\\ActivityLogServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0"
+    }
+}
