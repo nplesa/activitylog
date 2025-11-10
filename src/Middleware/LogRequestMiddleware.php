@@ -1,11 +1,11 @@
 <?php
 
-namespace Nplesa\\ActivityLog\\Middleware;
+namespace nplesa\ActivityLog\Middleware;
 
 use Closure;
-use Illuminate\\Http\\Request;
-use Nplesa\\ActivityLog\\Models\\ActivityLog;
-use Illuminate\\Support\\Facades\\Auth;
+use Illuminate\Http\Request;
+use nplesa\ActivityLog\Models\ActivityLog;
+use Illuminate\Support\Facades\Auth;
 
 class LogRequestMiddleware
 {

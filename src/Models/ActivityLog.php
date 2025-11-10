@@ -1,8 +1,8 @@
 <?php
 
-namespace Nplesa\\ActivityLog\\Models;
+namespace nplesa\ActivityLog\Models;
 
-use Illuminate\\Database\\Eloquent\\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class ActivityLog extends Model
 {

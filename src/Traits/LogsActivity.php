@@ -1,9 +1,9 @@
 <?php
 
-namespace Nplesa\\ActivityLog\\Traits;
+namespace nplesa\ActivityLog\Traits;
 
-use Nplesa\\ActivityLog\\Models\\ActivityLog;
-use Illuminate\\Support\\Facades\\Auth;
+use nplesa\ActivityLog\Models\ActivityLog;
+use Illuminate\Support\Facades\Auth;
 
 trait LogsActivity
 {
