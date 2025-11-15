@@ -2,6 +2,10 @@
     "name": "nplesa/activitylog",
     "description": "Laravel 12 package to log all model operations and HTTP requests.",
     "type": "library",
+    "author" : {
+        "name" : "Nicolae Plesa",
+        "email" : "nicu.plesa@gmail.com"
+    },
     "license": "MIT",
     "required": {
         "php": "^8.2",
