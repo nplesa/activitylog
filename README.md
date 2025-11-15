@@ -1,4 +1,4 @@
-# ActivityLog
+# nplesa/activityLog
 
 Laravel 12 package that logs all HTTP requests and model operations.
 
